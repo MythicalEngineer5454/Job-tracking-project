@@ -47,9 +47,12 @@ Users can filter, update, and view their job application history
 
 Technology Stack
 Layer   Tech Used Purpose
+
 Frontend: 
   Angular; 
   User interface, forms, tracking_dashboard
+
+  
 Backend: 
   Spring_Boot; 
   REST_APIs, logic_coordination
@@ -96,4 +99,4 @@ Scraping
 
 
 
-# Job-tracking-project
+
