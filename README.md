@@ -46,22 +46,24 @@ Users can filter, update, and view their job application history
 
 
 Technology Stack
-Layer   Tech Used Purpose
+   Layer   Tech Used Purpose
 
 Frontend: 
   Angular; 
   User interface, forms, tracking_dashboard
-
   
 Backend: 
   Spring_Boot; 
   REST_APIs, logic_coordination
+  
 Database: 
   PostgreSQL; 
   Data persistence for jobs, resumes, logs
+
 AI_Integration: 
   Gemini; 
   Smart document generation and job filtering 
+
 Scraping
   Python
   Job fetching from online listings
