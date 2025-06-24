@@ -77,7 +77,7 @@ AI_Integration:
   Gemini; 
   Smart document generation and job filtering 
 
-Scraping
+Scraping：
   Python；
   Job fetching from online listings
 
