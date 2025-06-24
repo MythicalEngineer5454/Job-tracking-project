@@ -78,7 +78,7 @@ AI_Integration:
   Smart document generation and job filtering 
 
 Scraping
-  Python
+  Python；
   Job fetching from online listings
 
 
