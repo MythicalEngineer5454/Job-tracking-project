@@ -1,25 +1,39 @@
 This project aims to build a smart, AI-powered assistant to help users efficiently search for jobs, generate tailored resumes and cover letters, and track their job applications—all in one place.
 
 1. Job Discovery by Keywords
+
    Users can search for jobs using specific keywords. The current version supports:
+
       Side jobs
+
       Computer science roles
 
-   Jobs are fetched using web scraping tools or public APIs from platforms like Indeed and LinkedIn. The system extracts and stores information such as:
-      Job title
+  Jobs are fetched using web scraping tools or public APIs from platforms like Indeed and LinkedIn. The system extracts and stores information such as:
+
+     Job title
+
       Company
+
       Location
+
       Description
+
       Application link
+
       Date posted
 
 
 2. AI-Powered Resume and Cover Letter Generation
+
     -The software leverages OpenAI’s ChatGPT API to generate customized application documents:
     Based on a user-uploaded master resume
+   
     -Tailored to each job’s requirements
+
     -Output includes both a personalized resume and cover letter
+
     -Supports tone customization (formal, casual, confident)
+
     -Users can download, preview, and edit documents before use
 
 
