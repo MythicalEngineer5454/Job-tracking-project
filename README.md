@@ -49,14 +49,14 @@ Allows editing and reusing across different job applications
 
 
 4. Job Application Tracker
-The platform helps users track every application they submit:
-Records job title, company, date applied, status, and documents used
 
+   The platform helps users track every application they submit:
 
-Application statuses include: Applied, Interviewing, Offer, Rejected, Ghosted
+   Records job title, company, date applied, status, and documents used
 
+   Application statuses include: Applied, Interviewing, Offer, Rejected, Ghosted
 
-Users can filter, update, and view their job application history
+   Users can filter, update, and view their job application history
 
 
 Technology Stack
