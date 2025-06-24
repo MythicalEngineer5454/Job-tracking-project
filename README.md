@@ -2,13 +2,13 @@ This project aims to build a smart, AI-powered assistant to help users efficient
 
 1. Job Discovery by Keywords
 
-   Users can search for jobs using specific keywords. The current version supports:
+   -Users can search for jobs using specific keywords. The current version supports:
 
-      Side jobs
+      -Side jobs
 
-      Computer science roles
+      -Computer science roles
 
-  Jobs are fetched using web scraping tools or public APIs from platforms like Indeed and LinkedIn. The system extracts and stores information such as:
+  -Jobs are fetched using web scraping tools or public APIs from platforms like Indeed and LinkedIn. The system extracts and stores information such as:
 
      Job title
 
@@ -38,25 +38,24 @@ This project aims to build a smart, AI-powered assistant to help users efficient
 
 
 3. Master Resume Management
-Users can upload or edit a central “master resume.” The system:
-Parses and stores resume content in structured form
+    -Users can upload or edit a central “master resume.”
 
+    -The system: Parses and stores resume content in structured form
 
-Supports multiple formats (PDF, DOCX, TXT)
+    -Supports multiple formats (PDF, DOCX, TXT)
 
-
-Allows editing and reusing across different job applications
+    -Allows editing and reusing across different job applications
 
 
 4. Job Application Tracker
 
-   The platform helps users track every application they submit:
+   -The platform helps users track every application they submit:
 
-   Records job title, company, date applied, status, and documents used
+   -Records job title, company, date applied, status, and documents used
 
-   Application statuses include: Applied, Interviewing, Offer, Rejected, Ghosted
+   -Application statuses include: Applied, Interviewing, Offer, Rejected, Ghosted
 
-   Users can filter, update, and view their job application history
+   -Users can filter, update, and view their job application history
 
 
 Technology Stack
