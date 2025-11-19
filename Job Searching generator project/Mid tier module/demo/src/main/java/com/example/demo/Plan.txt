@@ -1,0 +1,36 @@
+This Spring Boot program provides a simple REST API for managing job postings. 
+It defines a Job entity that maps to a jobs table in PostgreSQL, 
+with fields such as ID, title, company, description, and link. 
+Through a repository interface, the program connects to the database
+ using Spring Data JPA, which handles basic operations like saving, 
+ finding, and deleting jobs. A controller layer exposes these operations
+  as HTTP endpoints, allowing clients to create new jobs, 
+  retrieve all or individual jobs, update existing ones, and delete them.
+   When the application starts, Spring Boot launches an embedded server, 
+   connects to the database, and makes these endpoints available, 
+   enabling a full create-read-update-delete (CRUD) workflow for job postings.
+
+ basic function:
+ -input job to database
+ -retrieve all job in database
+ -update exising ones based on id input
+ -deleting the job based on id input
+
+
+ @restcontroller
+    -@getmapping: 
+        -retrieve all value: call retrieveValue()
+    -@postmapping: 
+        -adding new jobs in the database-> call addjob()
+    -@deletemapping:
+        -delete based on id -> call delete(id)
+    -@PutMapping:
+        -update existing based on id -> call updatejob()
+@service:
+    -Bool:addjob(Json)
+    -Bool: updatejob(id,change line):changes the value
+    -Lise<job>:retrieveValue(): retrieve all value
+    -Bool:delete(id): delete specific id 
+
+
+     @entity: job format
