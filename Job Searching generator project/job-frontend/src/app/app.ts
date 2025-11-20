@@ -1,12 +1,13 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { JobList } from './job-list/job-list';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  standalone: true,
+  imports: [JobList],   // no RouterOutlet needed
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'job-frontend';
+  // you can put properties here later if you want
 }

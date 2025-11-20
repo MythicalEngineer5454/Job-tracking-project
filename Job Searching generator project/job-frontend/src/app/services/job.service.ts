@@ -27,4 +27,3 @@ export class JobService {
     return this.http.get<Job[]>(this.apiUrl);
   }
 }
-
