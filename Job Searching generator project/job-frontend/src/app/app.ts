@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { JobList } from './job-list/job-list';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [JobList],   // no RouterOutlet needed
+  imports: [RouterOutlet],   // no RouterOutlet needed
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

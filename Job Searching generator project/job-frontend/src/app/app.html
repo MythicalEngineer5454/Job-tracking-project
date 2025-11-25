@@ -1,2 +1,12 @@
-<h1>Job Tracker App Working!</h1>
-<app-job-list></app-job-list>
+<h1>Job Tracker</h1>
+
+<nav>
+  <!-- simple nav, even though only /jobs exists for now -->
+  <a routerLink="/jobs">Jobs</a>
+  <a routerLink="/applications">Applications</a>
+</nav>
+
+<hr>
+
+<!-- This is where Angular will put JobList when you're at /jobs -->
+<router-outlet></router-outlet>

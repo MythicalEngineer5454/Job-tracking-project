@@ -2,12 +2,13 @@
 // src/app/job-list/job-list.ts
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { JobService, Job } from '../services/job.service';  // 👈 FIXED
+import { JobService, Job } from '../services/job.service'; 
+import { RouterLink } from '@angular/router';   
 
 @Component({
   selector: 'app-job-list',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterLink], 
   templateUrl: './job-list.html',
   styleUrls: ['./job-list.css']
 })
